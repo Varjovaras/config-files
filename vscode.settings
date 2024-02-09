@@ -1,0 +1,165 @@
+{
+	"editor.suggestSelection": "first",
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"editor.formatOnSave": true,
+	"editor.inlineSuggest.enabled": true,
+	"security.workspace.trust.untrustedFiles": "open",
+	"explorer.confirmDragAndDrop": false,
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"prettier.singleQuote": true,
+	"svelte.enable-ts-plugin": true,
+	"terminal.integrated.fontFamily": "'Monaspace Neon', monospace",
+	"github.copilot.enable": {
+		"*": true,
+		"plaintext": true,
+		"markdown": false,
+		"scminput": false,
+		"yaml": false,
+		"javascript": true,
+		"typescript": false,
+		"python": true,
+		"rust": true
+	},
+	"editor.bracketPairColorization.enabled": true,
+	"files.eol": "\n",
+	"files.exclude": {
+		"**/.classpath": true,
+		"**/.project": true,
+		"**/.settings": true,
+		"**/.factorypath": true
+	},
+	"gitlens.defaultDateFormat": null,
+	"gitlens.hovers.currentLine.over": "line",
+	"gitlens.codeLens.enabled": false,
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"gitlens.currentLine.enabled": false,
+	"explorer.confirmDelete": false,
+	"sonarlint.rules": {
+		"typescript:S1117": {
+			"level": "off"
+		},
+		"typescript:S1854": {
+			"level": "off"
+		},
+		"secrets:S6290": {
+			"level": "off"
+		},
+		"javascript:S125": {
+			"level": "off"
+		},
+		"javascript:S1788": {
+			"level": "off"
+		},
+		"javascript:S1301": {
+			"level": "off"
+		},
+		"javascript:S2990": {
+			"level": "off"
+		},
+		"typescript:S3317": {
+			"level": "off"
+		},
+		"typescript:S3923": {
+			"level": "off"
+		},
+		"typescript:S3358": {
+			"level": "off"
+		},
+		"python:S117": {
+			"level": "off"
+		},
+		"python:S125": {
+			"level": "off"
+		},
+		"python:S1172": {
+			"level": "off"
+		},
+		"typescript:S2310": {
+			"level": "off"
+		},
+		"javascript:S3358": {
+			"level": "off"
+		},
+		"typescript:S4138": {
+			"level": "off"
+		},
+		"typescript:S125": {
+			"level": "off"
+		},
+		"typescript:S1128": {
+			"level": "off"
+		}
+	},
+	"editor.fontFamily": "'Monaspace Neon', monospace",
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"editor.fontLigatures": true,
+	"editor.fontSize": 13,
+	"[dart]": {
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"editor.rulers": [80],
+		"editor.selectionHighlight": false,
+		"editor.suggest.snippetsPreventQuickSuggestions": false,
+		"editor.suggestSelection": "first",
+		"editor.tabCompletion": "onlySnippets",
+		"editor.wordBasedSuggestions": "off"
+	},
+	"prettier.useTabs": true,
+	"testMyCode.downloadOldSubmission": true,
+	"testMyCode.hideMetaFiles": true,
+	"testMyCode.updateExercisesAutomatically": true,
+	"testMyCode.insiderVersion": false,
+	"testMyCode.logLevel": "errors",
+	"terminal.integrated.inheritEnv": false,
+	"npm.keybindingsChangedWarningShown": true,
+	"terminal.integrated.defaultProfile.osx": "zsh",
+	"rust-analyzer.completion.callable.snippets": "none",
+	"rust-analyzer.extraArgs": ["--cfg", "backend", "--", "/path/to/backend"],
+	"rust-analyzer.completion.autoself.enable": false,
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.inlayHints.enabled": "on",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"editor.linkedEditing": true,
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"tailwindCSS.experimental.classRegex": [],
+	"[python]": {
+		"editor.formatOnType": true
+	},
+	"terminal.integrated.defaultProfile.windows": "powershell",
+	"rust-analyzer.cargo.features": [],
+	"terminal.integrated.defaultProfile.linux": "bash",
+	"typescript.experimental.tsserver.web.enableProjectWideIntellisense": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"settingsSync.ignoredExtensions": [],
+	"workbench.iconTheme": "vscode-icons",
+	"[rust]": {
+		"editor.defaultFormatter": "rust-lang.rust-analyzer"
+	},
+	"css.lint.unknownAtRules": "ignore",
+	"terminal.integrated.env.osx": {},
+	"rust-analyzer.check.command": "clippy",
+	"git.openRepositoryInParentFolders": "always",
+	"[html]": {
+		"editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+	},
+	"prettify-ts.viewNestedTypes": true,
+	"vsicons.dontShowNewVersionMessage": true,
+	"workbench.colorTheme": "Do You Even Dev, bro?",
+	"window.zoomLevel": -2
+}
