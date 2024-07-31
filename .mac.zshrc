@@ -94,6 +94,11 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 alias pn=pnpm
+alias gs="git status"
+alias gl="git log"
+alias gls="git log --stat"
+alias gf="git fetch"
+alias gp="git pull"
 
 
 
