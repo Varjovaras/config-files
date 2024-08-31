@@ -1,7 +1,7 @@
 {
 	"editor.suggestSelection": "first",
 	"[typescript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "biomejs.biome"
 	},
 	"[javascript]": {
 		"editor.defaultFormatter": "vscode.typescript-language-features"
@@ -11,13 +11,14 @@
 	"security.workspace.trust.untrustedFiles": "open",
 	"explorer.confirmDragAndDrop": false,
 	"[json]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "biomejs.biome"
 	},
 	"prettier.singleQuote": true,
+	"terminal.integrated.defaultLocation": "view",
 	"svelte.enable-ts-plugin": true,
 	"terminal.integrated.fontFamily": "'Monaspace Neon', monospace",
 	"github.copilot.enable": {
-		"*": true,
+		"*": false,
 		"plaintext": true,
 		"markdown": false,
 		"scminput": false,
@@ -25,7 +26,7 @@
 		"javascript": true,
 		"typescript": false,
 		"python": true,
-		"rust": true
+		"rust": false
 	},
 	"editor.bracketPairColorization.enabled": true,
 	"files.eol": "\n",
@@ -39,7 +40,7 @@
 	"gitlens.hovers.currentLine.over": "line",
 	"gitlens.codeLens.enabled": false,
 	"[typescriptreact]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "biomejs.biome"
 	},
 	"gitlens.currentLine.enabled": false,
 	"explorer.confirmDelete": false,
@@ -99,9 +100,12 @@
 			"level": "off"
 		}
 	},
-	"editor.fontFamily": "'Monaspace Neon', monospace",
+	"editor.fontFamily": "ComicShannsMono Nerd Font",
+	"editor.codeActionsOnSave": {
+		"source.sortImports": "never"
+	},
 	"[css]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "biomejs.biome"
 	},
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"editor.fontLigatures": true,
@@ -129,7 +133,7 @@
 	"rust-analyzer.extraArgs": ["--cfg", "backend", "--", "/path/to/backend"],
 	"rust-analyzer.completion.autoself.enable": false,
 	"[jsonc]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "vscode.json-language-features"
 	},
 	"editor.inlayHints.enabled": "on",
 	"javascript.updateImportsOnFileMove.enabled": "always",
@@ -137,7 +141,7 @@
 	"[svelte]": {
 		"editor.defaultFormatter": "svelte.svelte-vscode"
 	},
-	"tailwindCSS.experimental.classRegex": [],
+	"tailwindCSS.experimental.classRegex": ["class: \"(.*)\""],
 	"[python]": {
 		"editor.formatOnType": true
 	},
@@ -145,7 +149,6 @@
 	"rust-analyzer.cargo.features": [],
 	"terminal.integrated.defaultProfile.linux": "bash",
 	"typescript.experimental.tsserver.web.enableProjectWideIntellisense": true,
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"settingsSync.ignoredExtensions": [],
 	"workbench.iconTheme": "vscode-icons",
 	"[rust]": {
@@ -154,12 +157,47 @@
 	"css.lint.unknownAtRules": "ignore",
 	"terminal.integrated.env.osx": {},
 	"rust-analyzer.check.command": "clippy",
+	"rust-analyzer.check.extraArgs": [
+		"--",
+		"-W",
+		"clippy::pedantic",
+		"-W",
+		"clippy::nursery",
+		"-W",
+		"clippy::unwrap_used"
+	],
 	"git.openRepositoryInParentFolders": "always",
 	"[html]": {
-		"editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+		"editor.defaultFormatter": "biomejs.biome"
 	},
 	"prettify-ts.viewNestedTypes": true,
 	"vsicons.dontShowNewVersionMessage": true,
-	"workbench.colorTheme": "Do You Even Dev, bro?",
-	"window.zoomLevel": -2
+	"window.zoomLevel": -2,
+	"editor.defaultFormatter": "biomejs.biome",
+	"emmet.includeLanguages": {
+		"rust": "html",
+		"*.rs": "html"
+	},
+	"tailwindCSS.includeLanguages": {
+		"rust": "html"
+	},
+	"files.associations": {
+		"*.rs": "rust"
+	},
+	"editor.quickSuggestions": {
+		"other": "on",
+		"comments": "on",
+		"strings": true
+	},
+	"css.validate": false,
+	"workbench.colorTheme": "GitHub Dark Default",
+	"prisma.showPrismaDataPlatformNotification": false,
+	"github.copilot.editor.enableAutoCompletions": true,
+	"redhat.telemetry.enabled": false,
+	"[yaml]": {
+		"editor.defaultFormatter": "redhat.vscode-yaml"
+	},
+	"go.toolsManagement.autoUpdate": true,
+	"editor.minimap.enabled": false,
+	"tailwind-fold.autoFold": false
 }
