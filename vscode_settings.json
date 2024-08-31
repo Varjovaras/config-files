@@ -100,7 +100,7 @@
 			"level": "off"
 		}
 	},
-	"editor.fontFamily": "ComicShannsMono Nerd Font",
+	"editor.fontFamily": "Monaspace Neon",
 	"editor.codeActionsOnSave": {
 		"source.sortImports": "never"
 	},
@@ -113,7 +113,9 @@
 	"[dart]": {
 		"editor.formatOnSave": true,
 		"editor.formatOnType": true,
-		"editor.rulers": [80],
+		"editor.rulers": [
+			80
+		],
 		"editor.selectionHighlight": false,
 		"editor.suggest.snippetsPreventQuickSuggestions": false,
 		"editor.suggestSelection": "first",
@@ -130,7 +132,12 @@
 	"npm.keybindingsChangedWarningShown": true,
 	"terminal.integrated.defaultProfile.osx": "zsh",
 	"rust-analyzer.completion.callable.snippets": "none",
-	"rust-analyzer.extraArgs": ["--cfg", "backend", "--", "/path/to/backend"],
+	"rust-analyzer.extraArgs": [
+		"--cfg",
+		"backend",
+		"--",
+		"/path/to/backend"
+	],
 	"rust-analyzer.completion.autoself.enable": false,
 	"[jsonc]": {
 		"editor.defaultFormatter": "vscode.json-language-features"
@@ -141,7 +148,9 @@
 	"[svelte]": {
 		"editor.defaultFormatter": "svelte.svelte-vscode"
 	},
-	"tailwindCSS.experimental.classRegex": ["class: \"(.*)\""],
+	"tailwindCSS.experimental.classRegex": [
+		"class: \"(.*)\""
+	],
 	"[python]": {
 		"editor.formatOnType": true
 	},
@@ -190,7 +199,7 @@
 		"strings": true
 	},
 	"css.validate": false,
-	"workbench.colorTheme": "GitHub Dark Default",
+	"workbench.colorTheme": "Catppuccin Mocha",
 	"prisma.showPrismaDataPlatformNotification": false,
 	"github.copilot.editor.enableAutoCompletions": true,
 	"redhat.telemetry.enabled": false,
