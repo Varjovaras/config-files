@@ -99,7 +99,9 @@ alias gl="git log"
 alias gls="git log --stat"
 alias gf="git fetch"
 alias gp="git pull"
-alias gc="git commit -m "
+alias gc="git commit"
+
+
 
 
 # User configuration
