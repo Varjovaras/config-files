@@ -113,7 +113,9 @@
 	"[dart]": {
 		"editor.formatOnSave": true,
 		"editor.formatOnType": true,
-		"editor.rulers": [80],
+		"editor.rulers": [
+			80
+		],
 		"editor.selectionHighlight": false,
 		"editor.suggest.snippetsPreventQuickSuggestions": false,
 		"editor.suggestSelection": "first",
@@ -130,7 +132,19 @@
 	"npm.keybindingsChangedWarningShown": true,
 	"terminal.integrated.defaultProfile.osx": "zsh",
 	"rust-analyzer.completion.callable.snippets": "none",
-	"rust-analyzer.extraArgs": ["--cfg", "backend", "--", "/path/to/backend"],
+	"rust-analyzer.procMacro.ignored": {
+		"leptos_macro": [
+			// optional:
+			// "component",
+			"server"
+		],
+	},
+	"rust-analyzer.extraArgs": [
+		"--cfg",
+		"backend",
+		"--",
+		"/path/to/backend"
+	],
 	"rust-analyzer.completion.autoself.enable": false,
 	"[jsonc]": {
 		"editor.defaultFormatter": "vscode.json-language-features"
@@ -141,7 +155,9 @@
 	"[svelte]": {
 		"editor.defaultFormatter": "svelte.svelte-vscode"
 	},
-	"tailwindCSS.experimental.classRegex": ["class: \"(.*)\""],
+	"tailwindCSS.experimental.classRegex": [
+		"class: \"(.*)\""
+	],
 	"[python]": {
 		"editor.formatOnType": true
 	},
@@ -150,7 +166,7 @@
 	"terminal.integrated.defaultProfile.linux": "bash",
 	"typescript.experimental.tsserver.web.enableProjectWideIntellisense": true,
 	"settingsSync.ignoredExtensions": [],
-	"workbench.iconTheme": "vscode-icons",
+	"workbench.iconTheme": "material-icon-theme",
 	"[rust]": {
 		"editor.defaultFormatter": "rust-lang.rust-analyzer"
 	},
@@ -179,7 +195,8 @@
 		"*.rs": "html"
 	},
 	"tailwindCSS.includeLanguages": {
-		"rust": "html"
+		"rust": "html",
+		"*.rs": "html"
 	},
 	"files.associations": {
 		"*.rs": "rust"
@@ -199,6 +216,6 @@
 	"go.toolsManagement.autoUpdate": true,
 	"tailwind-fold.autoFold": false,
 	"workbench.sideBar.location": "right",
-	"workbench.colorTheme": "Carbon React Color Theme",
-	"editor.accessibilitySupport": "off"
+	"workbench.colorTheme": "Default Dark+",
+	"editor.accessibilitySupport": "off",
 }
