@@ -158,6 +158,7 @@
 	"tailwindCSS.experimental.classRegex": [
 		"class: \"(.*)\""
 	],
+	"chat.experimental.detectParticipant.enabled": true,
 	"[python]": {
 		"editor.formatOnType": true
 	},
@@ -216,6 +217,6 @@
 	"go.toolsManagement.autoUpdate": true,
 	"tailwind-fold.autoFold": false,
 	"workbench.sideBar.location": "right",
-	"workbench.colorTheme": "Default Dark+",
+	"workbench.colorTheme": "Carbon React Color Theme",
 	"editor.accessibilitySupport": "off",
 }
