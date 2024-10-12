@@ -155,3 +155,4 @@ eval "$(direnv hook zsh)"
 # Created by `pipx` on 2024-08-23 09:16:32
 export PATH="$PATH:/Users/kristjan/.local/bin"
 eval "$(zoxide init zsh)"
+eval "$(starship init zsh)"
