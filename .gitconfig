@@ -1,3 +1,35 @@
 [user]
 	email = kristjan.rajaniemi@live.fi
 	name = Kristjan Rajaniemi
+[core]
+	excludesfile = /Users/kristjan/.gitignore_global
+
+[alias]
+  rh = reset HEAD
+  rhh = reset --hard HEAD
+  pu = pull
+  up = push
+
+  l =  log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+
+	tree = log --oneline --decorate --graph
+
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+	ui = true
+
+[push]
+	default = current
+	followTags = true
+
+[remote]
+  pushDefault = origin
+
+
+[commit]
+	verbose = true
+[init]
+	defaultBranch = main
