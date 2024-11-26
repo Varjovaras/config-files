@@ -10,13 +10,14 @@
 	"editor.inlineSuggest.enabled": true,
 	"security.workspace.trust.untrustedFiles": "open",
 	"explorer.confirmDragAndDrop": false,
+	"explorer.sortOrder": "foldersNestsFiles",
 	"[json]": {
-		"editor.defaultFormatter": "biomejs.biome"
+		"editor.defaultFormatter": "vscode.json-language-features"
 	},
 	"prettier.singleQuote": true,
 	"terminal.integrated.defaultLocation": "view",
 	"svelte.enable-ts-plugin": true,
-	"terminal.integrated.fontFamily": "'Monaspace Neon', monospace",
+	"terminal.integrated.fontFamily": "MesloLGS NF",
 	"github.copilot.enable": {
 		"*": false,
 		"plaintext": true,
@@ -100,7 +101,7 @@
 			"level": "off"
 		}
 	},
-	"editor.fontFamily": "Monaspace Neon",
+	"editor.fontFamily": "JetBrains Mono",
 	"editor.codeActionsOnSave": {
 		"source.sortImports": "never"
 	},
@@ -167,7 +168,6 @@
 	"terminal.integrated.defaultProfile.linux": "bash",
 	"typescript.experimental.tsserver.web.enableProjectWideIntellisense": true,
 	"settingsSync.ignoredExtensions": [],
-	"workbench.iconTheme": "material-icon-theme",
 	"[rust]": {
 		"editor.defaultFormatter": "rust-lang.rust-analyzer"
 	},
@@ -217,6 +217,8 @@
 	"go.toolsManagement.autoUpdate": true,
 	"tailwind-fold.autoFold": false,
 	"workbench.sideBar.location": "right",
-	"workbench.colorTheme": "Carbon React Color Theme",
+	"workbench.colorTheme": "Do You Even Dev, bro?",
 	"editor.accessibilitySupport": "off",
+	"svg.minify.removeHiddenElems": false,
+	"editor.largeFileOptimizations": false,
 }
