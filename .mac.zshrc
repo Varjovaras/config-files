@@ -2,7 +2,6 @@
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 
-
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -77,18 +76,7 @@ ZSH_THEME="sonicradish"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(
-  git
-  bundler
-  dotenv
-  rake
-  rbenv
-  ruby
-  npm
-  zsh-autosuggestions
-  zsh-syntax-highlighting
-  direnv
- )
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -101,6 +89,8 @@ alias gp="git pull"
 alias gps="git push"
 alias npm="bun"
 alias npx="bunx"
+alias cd="z"
+alias lg="lazygit"
 
 
 
