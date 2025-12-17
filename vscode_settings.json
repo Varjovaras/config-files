@@ -1,224 +1,69 @@
 {
-	"editor.suggestSelection": "first",
-	"[typescript]": {
-		"editor.defaultFormatter": "biomejs.biome"
-	},
-	"[javascript]": {
-		"editor.defaultFormatter": "vscode.typescript-language-features"
-	},
-	"editor.formatOnSave": true,
-	"editor.inlineSuggest.enabled": true,
-	"security.workspace.trust.untrustedFiles": "open",
-	"explorer.confirmDragAndDrop": false,
-	"explorer.sortOrder": "foldersNestsFiles",
-	"[json]": {
-		"editor.defaultFormatter": "vscode.json-language-features"
-	},
-	"prettier.singleQuote": true,
-	"terminal.integrated.defaultLocation": "view",
-	"svelte.enable-ts-plugin": true,
-	"terminal.integrated.fontFamily": "MesloLGS NF",
-	"github.copilot.enable": {
-		"*": false,
-		"plaintext": true,
-		"markdown": false,
-		"scminput": false,
-		"yaml": false,
-		"javascript": true,
-		"typescript": false,
-		"python": true,
-		"rust": false
-	},
-	"editor.bracketPairColorization.enabled": true,
-	"files.eol": "\n",
-	"files.exclude": {
-		"**/.classpath": true,
-		"**/.project": true,
-		"**/.settings": true,
-		"**/.factorypath": true
-	},
-	"gitlens.defaultDateFormat": null,
-	"gitlens.hovers.currentLine.over": "line",
-	"gitlens.codeLens.enabled": false,
-	"[typescriptreact]": {
-		"editor.defaultFormatter": "biomejs.biome"
-	},
-	"gitlens.currentLine.enabled": false,
-	"explorer.confirmDelete": false,
-	"sonarlint.rules": {
-		"typescript:S1117": {
-			"level": "off"
-		},
-		"typescript:S1854": {
-			"level": "off"
-		},
-		"secrets:S6290": {
-			"level": "off"
-		},
-		"javascript:S125": {
-			"level": "off"
-		},
-		"javascript:S1788": {
-			"level": "off"
-		},
-		"javascript:S1301": {
-			"level": "off"
-		},
-		"javascript:S2990": {
-			"level": "off"
-		},
-		"typescript:S3317": {
-			"level": "off"
-		},
-		"typescript:S3923": {
-			"level": "off"
-		},
-		"typescript:S3358": {
-			"level": "off"
-		},
-		"python:S117": {
-			"level": "off"
-		},
-		"python:S125": {
-			"level": "off"
-		},
-		"python:S1172": {
-			"level": "off"
-		},
-		"typescript:S2310": {
-			"level": "off"
-		},
-		"javascript:S3358": {
-			"level": "off"
-		},
-		"typescript:S4138": {
-			"level": "off"
-		},
-		"typescript:S125": {
-			"level": "off"
-		},
-		"typescript:S1128": {
-			"level": "off"
-		}
-	},
-	"editor.fontFamily": "JetBrains Mono",
-	"editor.codeActionsOnSave": {
-		"source.sortImports": "never"
-	},
-	"[css]": {
-		"editor.defaultFormatter": "biomejs.biome"
-	},
-	"typescript.updateImportsOnFileMove.enabled": "always",
-	"editor.fontLigatures": true,
-	"editor.fontSize": 13,
-	"[dart]": {
-		"editor.formatOnSave": true,
-		"editor.formatOnType": true,
-		"editor.rulers": [
-			80
-		],
-		"editor.selectionHighlight": false,
-		"editor.suggest.snippetsPreventQuickSuggestions": false,
-		"editor.suggestSelection": "first",
-		"editor.tabCompletion": "onlySnippets",
-		"editor.wordBasedSuggestions": "off"
-	},
-	"prettier.useTabs": true,
-	"testMyCode.downloadOldSubmission": true,
-	"testMyCode.hideMetaFiles": true,
-	"testMyCode.updateExercisesAutomatically": true,
-	"testMyCode.insiderVersion": false,
-	"testMyCode.logLevel": "errors",
-	"terminal.integrated.inheritEnv": false,
-	"npm.keybindingsChangedWarningShown": true,
-	"terminal.integrated.defaultProfile.osx": "zsh",
-	"rust-analyzer.completion.callable.snippets": "none",
-	"rust-analyzer.procMacro.ignored": {
-		"leptos_macro": [
-			// optional:
-			// "component",
-			"server"
-		],
-	},
-	"rust-analyzer.extraArgs": [
-		"--cfg",
-		"backend",
-		"--",
-		"/path/to/backend"
-	],
-	"rust-analyzer.completion.autoself.enable": false,
-	"[jsonc]": {
-		"editor.defaultFormatter": "vscode.json-language-features"
-	},
-	"editor.inlayHints.enabled": "on",
-	"javascript.updateImportsOnFileMove.enabled": "always",
-	"editor.linkedEditing": true,
-	"[svelte]": {
-		"editor.defaultFormatter": "svelte.svelte-vscode"
-	},
-	"tailwindCSS.experimental.classRegex": [
-		"class: \"(.*)\""
-	],
-	"chat.experimental.detectParticipant.enabled": true,
-	"[python]": {
-		"editor.formatOnType": true
-	},
-	"terminal.integrated.defaultProfile.windows": "powershell",
-	"rust-analyzer.cargo.features": [],
-	"terminal.integrated.defaultProfile.linux": "bash",
-	"typescript.experimental.tsserver.web.enableProjectWideIntellisense": true,
-	"settingsSync.ignoredExtensions": [],
-	"[rust]": {
-		"editor.defaultFormatter": "rust-lang.rust-analyzer"
-	},
-	"css.lint.unknownAtRules": "ignore",
-	"terminal.integrated.env.osx": {},
-	"rust-analyzer.check.command": "clippy",
-	"rust-analyzer.check.extraArgs": [
-		"--",
-		"-W",
-		"clippy::pedantic",
-		"-W",
-		"clippy::nursery",
-		"-W",
-		"clippy::unwrap_used"
-	],
-	"git.openRepositoryInParentFolders": "always",
-	"[html]": {
-		"editor.defaultFormatter": "biomejs.biome"
-	},
-	"prettify-ts.viewNestedTypes": true,
-	"vsicons.dontShowNewVersionMessage": true,
-	"window.zoomLevel": -2,
-	"editor.defaultFormatter": "biomejs.biome",
-	"emmet.includeLanguages": {
-		"rust": "html",
-		"*.rs": "html"
-	},
-	"tailwindCSS.includeLanguages": {
-		"rust": "html",
-		"*.rs": "html"
-	},
-	"files.associations": {
-		"*.rs": "rust"
-	},
-	"editor.quickSuggestions": {
-		"other": "on",
-		"comments": "on",
-		"strings": true
-	},
-	"css.validate": false,
-	"prisma.showPrismaDataPlatformNotification": false,
-	"github.copilot.editor.enableAutoCompletions": true,
-	"redhat.telemetry.enabled": false,
-	"[yaml]": {
-		"editor.defaultFormatter": "redhat.vscode-yaml"
-	},
-	"go.toolsManagement.autoUpdate": true,
-	"tailwind-fold.autoFold": false,
-	"workbench.sideBar.location": "right",
-	"workbench.colorTheme": "Do You Even Dev, bro?",
-	"editor.accessibilitySupport": "off",
-	"svg.minify.removeHiddenElems": false,
-	"editor.largeFileOptimizations": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.biome": "explicit",
+        "source.organizeImports.biome": "explicit"
+    },
+    "chat.agent.enabled": true,
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+    "editor.formatOnSave": true,
+    "workbench.sideBar.location": "right",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "editor.minimap.enabled": false,
+    "github.copilot.chat.codesearch.enabled": true,
+    "svelte.enable-ts-plugin": true,
+    "github.copilot.chat.followUps": "always",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "github.copilot.nextEditSuggestions.fixes": true,
+    "github.copilot.chat.agent.thinkingTool": true,
+    "github.copilot.chat.languageContext.inline.typescript.enabled": true,
+    "github.copilot.chat.languageContext.fix.typescript.enabled": true,
+    "github.copilot.chat.languageContext.typescript.enabled": true,
+    "github.copilot.advanced": {},
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "tailwind-fold.autoFold": false,
+    "editor.fontFamily": "MonaspiceNe NF",
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
+        "*.sqlite": "${capture}.${extname}-*",
+        "*.db": "${capture}.${extname}-*",
+        "*.sqlite3": "${capture}.${extname}-*",
+        "*.db3": "${capture}.${extname}-*",
+        "*.sdb": "${capture}.${extname}-*",
+        "*.s3db": "${capture}.${extname}-*"
+    },
+    "chat.agent.maxRequests": 100,
+    "workbench.colorTheme": "Do You Even Dev, bro?",
+    "[svelte]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.openRepositoryInParentFolders": "always"
 }

@@ -76,7 +76,7 @@ ZSH_THEME="sonicradish"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -91,8 +91,8 @@ alias npm="bun"
 alias npx="bunx"
 alias cd="z"
 alias lg="lazygit"
-
-
+alias gsw="git switch"
+alias gr="go run ."
 
 
 # User configuration
@@ -141,8 +141,13 @@ esac
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
-eval "$(direnv hook zsh)"
 # Created by `pipx` on 2024-08-23 09:16:32
 export PATH="$PATH:/Users/kristjan/.local/bin"
 eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
+
+# Added by Windsurf
+export PATH="/Users/kristjan/.codeium/windsurf/bin:$PATH"
+
+# Added by Antigravity
+export PATH="/Users/kristjan/.antigravity/antigravity/bin:$PATH"
